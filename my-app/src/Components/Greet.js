@@ -4,8 +4,14 @@ import React from 'react';
 //     return(<h1>dady is home</h1>);
 // }
 
-const Greet = ( ) => {
-   return(<h5>ruller</h5>);
+const Greet = ( props ) => {
+   console.log(props);
+return(
+   <div>
+      <h5>hello {props.name} age {props.age}</h5>
+      {props.children}
+   </div>
+);
 }
 
 export default Greet;
