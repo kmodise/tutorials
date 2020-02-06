@@ -6,6 +6,9 @@ import K from './Components/state';
 import Count from "./Components/counter";
 import Destructure from './Components/destructure';
 import Listen from './Components/eventListner'
+import Nest from './Components/nestListner'
+import methodAsProps from "./Components/methodAsProps";
+import MethProp from './Components/methodAsProps';
 
 function App() {
   return (
@@ -17,10 +20,11 @@ function App() {
 
       {/* <Destructure lastname='bottle' gender='33' /> */}
       {/* <Message /> */}
-      <Listen />
+      {/*<Listen />*/}
       {/* <K/> */}
-      {/* <Count /> */}
-
+      {/* <Count  /> */}
+      {/* <Nest /> */}
+      <MethProp />
     </div>
   );
 }
