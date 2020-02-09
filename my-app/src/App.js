@@ -9,10 +9,11 @@ import Listen from './Components/eventListner'
 import Nest from './Components/nestListner'
 import methodAsProps from "./Components/methodAsProps";
 import MethProp from './Components/methodAsProps';
+import TestFrag from './Components/testFragment'
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment className="App">
       {/* <Greet name='darby' age='23' ><h1>heyy</h1></Greet>
       <Greet name='judas' age='14' />
       <Greet name='naito' age='34' />
@@ -24,8 +25,9 @@ function App() {
       {/* <K/> */}
       {/* <Count  /> */}
       {/* <Nest /> */}
-      <MethProp />
-    </div>
+      {/* <MethProp /> */}
+      <TestFrag />
+    </React.Fragment>
   );
 }
 
